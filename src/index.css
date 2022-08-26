@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  font-family: 'Anek Telugu', sans-serif;
+  text-align: center;
+  background-color: rgb(80, 79, 79);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.Heading {
+  margin-top: 40px;
+  color: whitesmoke;
+}
+
+.buttons {
+  padding: 20px 0px;
+}
+
+.rows {
+  width: 250px;
+  padding: 10px 20px;
+  margin: 50px auto 20px auto;
+  border: solid 5px rgb(51, 52, 49);
+  background-color: rgb(51, 52, 49);
+  width: 350px;
+  border-radius: 10px;
+}
+
+.rows ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  background-color: rgb(182, 184, 184);
+  width: 40px;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.equal {
+  width: 135px;
+  background-color: orange;
+}
+
+#equals {
+  width: 110px;
+  background-color: orange;
+}
+
+.calculation {
+  margin-left: 6px;
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: rgb(182, 184, 184);
+  padding: 10px 20px;
+}
+
+.calcn {
+  border: solid 2px rgb(80, 79, 79);
+  background-color: rgb(139, 135, 135);
+  height: 50px;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  background-color: rgb(182, 184, 184);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button :hover {
+  opacity: 0.9;
+}
